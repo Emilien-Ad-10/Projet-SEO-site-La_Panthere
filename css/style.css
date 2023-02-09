@@ -1,0 +1,625 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* SCROLL EFFECT */
+
+.scroll {
+    position: relative;
+    z-index: 1;
+    height: 530px;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.scroll2 {
+    position: relative;
+    z-index: 1;
+    height: 1200px;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    height: 95px;
+}
+
+.content2 {
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    height: auto;
+}
+
+.content3 {
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    height: auto;
+}
+
+#S1 {
+    background-image: url("Images/agence-la-panthere.jpg");
+}
+
+#S2 {
+    background-image: url("Images/image-de-presentation.jpg");
+}
+
+/* SCROLL EFFECT END */
+
+/* HEADER */
+
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 95px;
+    background: #ffffff;
+}
+
+.logo {
+    padding-top: 1.5%;
+    padding-left: 10%;
+}
+
+.logo .normal{
+    width: 255px;
+    height: 55px;
+}
+
+.logo .small{
+    width: 170px;
+    height: 37px;
+}
+
+.logo-lien-small{
+    display: none;
+}
+
+nav {
+    width: 25%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+nav ul li a {
+    font-family: Helvetica;
+    text-decoration: none;
+    color: #6d6666;
+    font-size: 1rem;
+    transition: all .3s ease-in-out;
+}
+
+nav ul li a:hover{
+    color: #F3976C;
+}
+
+.logo-h1-contact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 110%;
+}
+
+.logo-h1-contact img {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    font-family: "helvetica";
+    font-weight: 400;
+    font-size: 2rem;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.logo-h1-contact a,
+.footer-contact a {
+    border: 1px solid #F3976C;
+    border-radius: 30px;
+    background: #F3976C;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px 28px 12px 28px;
+    font-family: "helvetica";
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #1F1F1F;
+    transition: all .3s ease-in-out;
+}
+
+.logo-h1-contact a:hover,
+.footer-contact a:hover {
+    border: 1px solid #b66f4e;
+    background: #b66f4e;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background: #ffffff;
+}
+
+/* SECTION PRESENTATION */
+
+.présentation {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    width: 53%;
+    color: #6d6666;
+    font-family: Helvetica;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.grille {
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+
+.design-stratégie{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.art-illustration{
+    width: 40%;
+}
+
+.web-design,
+.stratégie,
+.illustration {
+    width: 33%;
+    height: 300px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.illustration{
+    width: 48%;
+}
+
+.web-design img,
+.stratégie img,
+.illustration img {
+    width: 100px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.web-design h3,
+.stratégie h3,
+.illustration h3 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.web-design p,
+.stratégie p,
+.illustration p {
+    text-align: center;
+    font-size: 11px;
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #575757
+}
+
+aside {
+    display: grid;
+    place-items: center;
+}
+
+aside p {
+    font-size: 1.25rem;
+    width: 53%;
+    color: #4B4444;
+    font-family: Helvetica;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+aside .signature {
+    font-size: 1.25rem;
+    width: 53%;
+    color: #4B4444;
+    font-family: Helvetica;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+
+/* ASIDE PRISE DE CONTACT */
+
+.prise-de-contact{
+    width: 46%;
+    height: 350px;
+    background: rgba(58, 59, 59, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.h3-pdc{
+    font-family: "helvetica";
+    font-weight: 400;
+    width: 80%;
+    font-size: 1.35rem;
+    color: #F3976C;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.p-pdc{
+    font-size: .7rem;
+    width: 85%;
+    color: #1F1F1F;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+.a-pdc{
+    color: #1F1F1F;
+    font-weight: bold;
+    padding-top: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.a-pdc:hover{
+    color: #F3976C;
+}
+
+/* SECTION GALERIE */
+
+.h3-galerie{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #1F1F1F;
+    padding-top: 60px;
+    font-weight: 100;
+}
+
+.grille-réalisation{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.réalisation-1-2,
+.réalisation-3-4 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.réalisation-1,
+.réalisation-2,
+.réalisation-3,
+.réalisation-4 {
+    width: 25%;
+    height: 450px;
+}
+
+.réalisation-1 img,
+.réalisation-2 img,
+.réalisation-3 img,
+.réalisation-4 img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.réalisation-1 img:hover,
+.réalisation-2 img:hover,
+.réalisation-3 img:hover,
+.réalisation-4 img:hover {
+    box-shadow: 3px 3px 9px #6d6666;
+}
+
+.réalisation-1,
+.réalisation-3 {
+    margin-right: 30px;
+}
+
+.réalisation-1 h4,
+.réalisation-2 h4,
+.réalisation-3 h4,
+.réalisation-4 h4 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15px;
+    word-spacing: 6px;
+}
+
+.réalisation-1 p,
+.réalisation-2 p,
+.réalisation-3 p,
+.réalisation-4 p {
+    font-size: .8rem;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: auto;
+    background: #F3976C;
+}
+
+footer img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.footer-contact {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.h3-footer {
+    width: 100%;
+    font-family: "helvetica";
+    font-weight: 400;
+    font-size: 1.35rem;
+    color: #000000;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.p-info {
+    text-align: center;
+    font-size: 1.15rem;
+    color: #1F1F1F;
+}
+
+.p-footer {
+    text-align: center;
+    font-size: 1.15rem;
+    color: #1F1F1F;
+    margin: 5px 0;
+}
+
+.p-footer-mentions-CGU{
+    color: #1F1F1F;
+    display: flex;
+    justify-content: center;
+}
+
+.p-footer-mentions-CGU .Mentions-CGU{
+    padding-right: 15px;
+}
+
+.réseaux-sociaux {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.icones-réseaux-sociaux {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.réseaux-sociaux a {
+    margin: 2% 4%;
+}
+
+.réseaux-sociaux a i {
+    font-size: 1rem;
+    color: #1F1F1F;
+    transition: all .3s ease-in-out;
+}
+
+.icones-réseaux-sociaux .fa-twitter:hover {
+    color: #1dcaff;
+}
+.icones-réseaux-sociaux .fa-facebook-f:hover {
+    color: #3b5998;
+}
+.icones-réseaux-sociaux .fa-github:hover {
+    color: #000000;
+}
+.icones-réseaux-sociaux .fa-instagram:hover {
+    color: #E4405F;
+}
+
+.icones-réseaux-sociaux span{
+    font-size: .7rem;
+}
+
+.Mentions-CGU {
+    color: #1F1F1F;
+    margin-bottom: 20px;
+}
+
+/* PAGE 2 */
+
+/* HEADER */
+
+.contact-page2 {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.img-logo-h1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.logo-h1-contact-page2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+}
+
+.p-logo-h1-contact-page2 {
+    color: #000000;
+    font-size: 1rem;
+}
+
+.logo-h1-contact-page2 img {
+    width: 100px;
+    height: 100px;
+}
+
+/* FORMULAIRE DE CONTACT PAGE 2 */
+
+.formulaire-de-contact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width:100%;
+    line-height: 2;
+}
+
+form label {
+    font-size: .8rem;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
+
+form label span {
+    margin: 0 3%;
+}
+
+input {
+    width: 94%;
+    margin: 0 3%;
+    color: #333;
+    border: 1px solid #F3976C;
+}
+
+::placeholder{
+    padding-left: 1%;
+}
+
+textarea {
+    width: 94%;
+    height: 125px;
+    border: 1px solid #F3976C;
+    margin: 0 3%;
+}
+
+.button-formulaire {
+    margin-bottom: 30px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #F3976C;
+    color: #000000;
+    font-weight: bold;
+    background: #F3976C;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.button-formulaire:hover {
+    background: rgb(238, 191, 171);
+}
+
+/* FOOTER */
+
+.footer-contact-page2 {
+    height: auto;
+}
+
+.p-info-page2 {
+    text-align: center;
+    font-size: 1.15rem;
+    color: #1F1F1F;    
+}
+
+.p-footer-page2 {
+    text-align: center;
+    font-size: 1.15rem;
+    color: #1F1F1F;
+    margin-top: 5px;
+}

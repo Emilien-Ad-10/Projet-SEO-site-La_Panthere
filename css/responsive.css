@@ -1,0 +1,379 @@
+/* PAGE ACCUEIL */
+
+/* HAEDER */
+
+@media screen and (max-width: 992px) {
+    .logo-lien{
+        display: none;
+    }
+    .logo-lien-small{
+        display: flex;
+        padding-top: 9%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .logo-nav{
+        height: 160px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .logo{
+        padding: 0;
+    }
+    .logo-lien{
+        display: flex;
+    }
+    .logo-lien-small{
+        display: none;
+    }
+
+    nav{
+        width: 100%;
+        padding: 0;
+    }
+    nav ul{
+        justify-content: center;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    nav ul :nth-child(1){
+        margin-right: 15%;
+    }
+
+    .logo-h1-contact {
+        top: 90%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .logo-lien-small{
+        padding-top: 14%;
+    }
+}
+
+/* MAIN */
+/* CONTENT 2 */
+
+@media screen and (max-width:1100px) {
+    .présentation h2{
+        width: 70%;
+    }
+
+    .design-stratégie{
+        width: 70%;
+    }
+    .art-illustration{
+        width: 30%;
+    }
+
+    .web-design,
+    .stratégie {
+        width: 50%;
+    }
+    .illustration{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    aside p{
+        width: 80%;
+        padding-top: 0;
+    }
+
+    .scroll2{
+        height: 1060px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .présentation h2{
+        width: 80%;
+    }
+    
+    .grille{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    .design-stratégie {
+        width: 100%;
+    }
+
+    .art-illustration {
+        width: 50%;
+    }
+
+    aside p{
+        padding-top: 0;
+    }
+    .scroll2{
+        height: 1360px;
+    } 
+}
+
+@media screen and (max-width:749px) {
+    aside .signature{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .présentation h2{
+        font-size: 1.25rem;
+    }
+    
+    .design-stratégie{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .web-design,
+    .stratégie{
+        width: 50%;
+    }
+    
+    .web-design h3,
+    .stratégie h3,
+    .illustration h3{
+        font-size: 1rem;    
+    }
+
+    aside p{
+        font-size: 1rem;
+    }
+    aside .signature{
+        font-size: 1rem;
+    }
+
+    .scroll2{
+        height: 1670px;
+    }
+}
+
+@media screen and (max-width: 556px) {
+    .scroll2{
+        height: 1580px;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .scroll2{
+        height: 1555px;
+    }
+}
+
+/* PRISE DE CONTACT */
+
+@media screen and (max-width:1254px) {
+    .prise-de-contact{
+        width: 100%;
+        top: 111%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .prise-de-contact{
+        top: 114%;
+    }
+}
+
+@media screen and (max-width:966px) {
+    .prise-de-contact{
+        top: 112%;
+    }
+}
+
+@media screen and (max-width:847px) {
+    .prise-de-contact{
+        top: 110%;
+    }
+}
+
+@media screen and (max-width:836px) {
+    .prise-de-contact{
+        top: 107%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .prise-de-contact{
+        top: 105%;
+    }
+
+    .h3-pdc{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .prise-de-contact{
+        top: 105%;
+    }  
+}
+
+@media screen and (max-width:672px) {
+    .prise-de-contact{
+        top: 105%;
+    }
+}
+
+@media screen and (max-width:617px) {
+    .prise-de-contact{
+        top: 103.5%;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .prise-de-contact{
+        top: 106%;
+    } 
+}
+
+@media screen and (max-width:562px) {
+    .prise-de-contact{
+       top: 105%;
+    }
+}
+
+@media screen and (max-width:556px) {
+    .prise-de-contact{
+        top: 102%;
+    }
+}
+
+@media screen and (max-width:545px) {
+    .prise-de-contact{
+        top: 101%;
+    }
+}
+
+@media screen and (max-width:497px) {
+    .prise-de-contact{
+        top: 100.5%;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .prise-de-contact{
+        top: 100%;
+    }
+}
+
+/* CONTENT 3 */
+/* GALERIE */
+
+@media screen and (max-width:1110px) {
+    .réalisation-1,
+    .réalisation-3 {
+        width: 50%;
+        padding: 0 0 0 5%;
+    }
+    .réalisation-2,
+    .réalisation-4 {
+        width: 50%;
+        padding: 0 5% 0 0;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .p-footer{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .réalisation-1-2,
+    .réalisation-3-4{
+        flex-direction: column;
+        align-items: center;
+    }
+    .réalisation-1,
+    .réalisation-2,
+    .réalisation-3,
+    .réalisation-4 {
+        width: 75%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+/* FOOTER */
+
+@media screen and (max-width:768px) {
+    .footer-contact{
+        top: 83%;
+    }    
+}
+
+@media screen and (max-width: 680px) {
+    .réseaux-sociaux a {
+        margin: 2% 4%;
+    }
+}
+
+@media screen and (max-width:535px) {
+    .footer-contact{
+        top: 85%;
+    }    
+}
+
+@media screen and (max-width:620px) {
+    .p-footer,
+    .p-footer-mentions-CGU {
+        font-size: .75rem;
+    }
+}
+
+/* RESPONSIVE MOBILE */
+
+/* CONTENT 2 */
+/* PRISE DE CONTACT */
+
+@media screen and (max-width: 375px) {
+    .a-pdc{
+        padding-top: 5px;
+    }
+}
+
+/* CONTENT 3 */
+/* FOOTER */
+
+@media screen and (max-width: 375px) {
+    footer{
+        height: auto;
+    }
+
+    .réseaux-sociaux a {
+        margin: 2% 2%;
+    }
+}
+
+/* PAGE 2 CONTACT */
+/* HEADER */
+
+@media screen and (max-width: 460px) {
+    .p-logo-h1-contact-page2{
+        font-size: .9rem;
+    }
+}
+
+/* RESPONSIVE MOBILE */
+/* HEADER */
+
+@media screen and (max-width: 375px) {
+    .p-logo-h1-contact-page2{
+        font-size: .8rem;
+    }
+}
+
+/* FOOTER */
+
+@media screen and (max-width: 375px) {
+    .footer-contact-page2{
+        height: auto;
+    }
+}
